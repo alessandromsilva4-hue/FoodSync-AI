@@ -204,7 +204,7 @@ app.get("/", (req, res) => {
 
   res.json({
     sucesso: true,
-    sistema: "FoodSync AI",
+    sistema: "Lotrix AI",
     ia: "Groq",
     modelo: "llama-3.3-70b-versatile",
     status: "online"
@@ -221,7 +221,7 @@ const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
 
   console.log("==================================");
-  console.log(" FoodSync AI iniciado");
+  console.log(" Lotrix AI iniciado");
   console.log("==================================");
   console.log(` Porta: ${PORT}`);
   console.log(" IA: Groq");
